@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <body>
-<H1>This website no exist?!</H1>
+<H1 class="outlined">This website no exist?!</H1>
 <img style="display: block;-webkit-user-select: none;margin: auto;background-color: hsl(0, 0%, 90%);" src="https://i.pinimg.com/originals/bd/df/d6/bddfd6e4434f42662b009295c9bab86e.gif">
 <a href="https://ejsupernovaonlyinohio.github.io/">
     <button>go to main website</button>
@@ -29,7 +29,18 @@ button {
 }
 h1 {
     color: white;
-    outline: red;
+}
+.outlined {
+  color: white;
+  text-shadow:
+    -1px -1px 0 #000,
+     0   -1px 0 #000,
+     1px -1px 0 #000,
+     1px  0   0 #000,
+     1px  1px 0 #000,
+     0    1px 0 #000,
+    -1px  1px 0 #000,
+    -1px  0   0 #000;
 }
     </style>
 </body>
