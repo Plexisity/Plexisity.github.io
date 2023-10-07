@@ -1,1 +1,1 @@
-I need a medic
+#Go to https://ejsupernovaonlyinohio.github.io/main.html for the main website
