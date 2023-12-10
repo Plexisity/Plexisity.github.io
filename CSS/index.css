@@ -6,12 +6,6 @@
     margin-left: auto;
     margin-right: auto;
 }
-body {
-    background-color: black;
-}
-h1 {
-    color: white;
-}
 .bg-image {
     /* The image used */
     background-image: url("assets/kitsune.png");
