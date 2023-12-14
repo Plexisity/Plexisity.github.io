@@ -44,7 +44,7 @@
   
   .bg-image {
     /* The image used */
-    background-image: url("/assets/creepy.jpg");
+    background-image: url("/assets/Background.png");
     
     /* Add the blur effect */
     filter: blur(8px);
