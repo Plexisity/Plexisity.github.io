@@ -44,7 +44,7 @@
   
   .bg-image {
     /* The image used */
-    background-image: url("/assets/Backgrounds/vikings-bg.png");
+    background-image: url("/assets/Backgrounds/flipitM-bg.png");
     
     
     /* Full height */
@@ -122,11 +122,11 @@ body .bg-text {
   border-radius: 3px;
 }
 .title {
-  position: absolute;
-  top: 10%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  -webkit-text-fill-color: rgb(0, 0, 0);
-  -webkit-text-stroke: 1px rgb(255, 255, 255);
-}
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    -webkit-text-fill-color: rgb(0, 0, 0);
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+  }

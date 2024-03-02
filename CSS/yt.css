@@ -44,7 +44,7 @@
   
   .bg-image {
     /* The image used */
-    background-image: url("/assets/Backgrounds/vikings-bg.png");
+    background-image: url("/assets/Backgrounds/yt-bg.png");
     
     
     /* Full height */
@@ -54,6 +54,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
   }
   
   /* Position text in the middle of the page/image */
@@ -97,8 +98,7 @@
   --game-card-filter-hover: brightness(1);
 }
 body .bg-img {
-  -webkit-filter: unset;
-  filter: unset;
+  border-radius: 3px;
 }
 body .bg-text {
   border: none;
@@ -121,4 +121,12 @@ body .bg-text {
 .bg-text a img {
   border-radius: 3px;
 }
-  
+.title {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    -webkit-text-fill-color: rgb(0, 0, 0);
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+  }
