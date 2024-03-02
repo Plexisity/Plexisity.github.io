@@ -44,11 +44,9 @@
   
   .bg-image {
     /* The image used */
-    background-image: url("/assets/index-bg.png");
+    background-image: url("/assets/Backgrounds/index-bg.png");
     
-    /* Add the blur effect */
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
+
     
     /* Full height */
     height: 100%; 
@@ -94,5 +92,34 @@
   h1 {
     text-align: center;
     color: rgb(0, 0, 0);
+}
+:root {
+  --game-card-filter: brightness(0.5);
+  --game-card-filter-hover: brightness(1);
+}
+body .bg-img {
+  -webkit-filter: unset;
+  filter: unset;
+}
+body .bg-text {
+  border: none;
+  border-radius: 10px;
+  backdrop-filter: blur(3px);
+  box-shadow: 5px 10px 15px rgba(0,0,0,0.3);
+}
+.bg-text h1 {
+  color: #e1e1e1;
+}
+.bg-text a {
+  -webkit-filter: var(--game-card-filter);
+  filter: var(--game-card-filter);
+  transition: ease-in-out 0.3s filter;
+}
+.bg-text a:hover {
+  -webkit-filter: var(--game-card-filter-hover);
+  filter: var(--game-card-filter-hover);
+}
+.bg-text a img {
+  border-radius: 3px;
 }
   
